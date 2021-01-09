@@ -21,7 +21,7 @@
 
             <div class="bookmark" style="float:right;"> 
             @auth
-            <a href="/add-recomendation/{{$film[0]->id_film}}/{{Auth::id()}}"> Добавить фильм </a>
+            <a href="/add-recomendation/{{$film[0]->id_film}}/{{Auth::id()}}" style="color: #0097FF;"> Добавить фильм </a>
         @endauth
             
             
@@ -43,7 +43,7 @@
                   
                   @if ($film[0]->id_film == $actor->id_film)
               
-                      <a href="#" > {{ $actor->name_actor}} </a>
+                      <a href="/actor/{{ $actor->id_actor}}" style="color: #0097FF;"> {{ $actor->name_actor}} </a>
 
                   @endif
                 @endforeach()

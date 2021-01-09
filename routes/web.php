@@ -23,6 +23,7 @@ Route::get('/bookmarks','RecommendationController@bookmarks');
 
 Route::get('/recommendation','RecommendationController@Recommendation');
 
+Route::get('/actor/{id}','ActorController@index');
 
 Auth::routes();
 // Auth::logout();
