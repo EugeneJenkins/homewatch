@@ -17,10 +17,6 @@
         
         <div class="header_right_side">
 
-        
-
-
-
         @if (Auth::guest())
         <div class="registr">	
                 <a href="{{ route('login') }}">Вход</a>
@@ -46,9 +42,6 @@
                                         </form>
                                         </div><!-- reg end -->
           @endif
-
-
-
             
             <div class="search">
 				<input type="search" name="q" placeholder="Поиск..."> 

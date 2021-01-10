@@ -10,17 +10,9 @@
   @endsection
 
   @section('main')
-
-
-            
-
-
           <div class="last_films2">
             
             <div class="last-film-container">
-             
-        
-            
 
             @foreach ($allFilms as $film)
             <section class="uk-margin-small-top">
@@ -30,7 +22,6 @@
                       <img class="uk-width-1-2 uk-width-1-1@s uk-box-shadow-small"  width="100px" src="{{$film->img}}">
                     </a>
                   </div>
-
 
                   <div class="last_films2_Info">
                     <a class="uk-margin-small-bottom" href="/film/{{$film->id_film}}" >
