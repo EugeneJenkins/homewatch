@@ -5,7 +5,7 @@
   }
   
 a{
-	text-decoration: none;
+  text-decoration: none;
 }
 
 li{
@@ -104,6 +104,7 @@ header{
     flex: 0 0 13%;
     max-width: 13%;
     margin-right: 0px;
+    
   }
 
   .slider__control {
@@ -263,11 +264,29 @@ display: none;
  margin-left:10px ;
 }
 
+.right_actor_content{
+  float: left;
+  content: "";
+  width: 400px;
+  margin-left:10px ;
+}
+
+.content_film_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.content_film_item {
+  width: 32%;
+  padding-bottom: 32%; /* Same as width, sets height */
+  margin-bottom: 2%; /* (100-32*3)/2 */
+  position: relative;
+}
+
 .about_film{
   width: 1100px;
-  margin-top:10px ;
-  margin-bottom:10px ;
-  margin-left: 10px ;
+  /* margin-top: ; */
 }
 
 .t_img{
@@ -285,7 +304,7 @@ display: none;
 /* main end */
 
 
-/* slider */
+
 
 
 /* footer start */
